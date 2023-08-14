@@ -21,10 +21,10 @@ Here, QA stands for question answering, NLI is natural language inference, WSD i
 In our evaluation, we consider five popular large language models (LLMs): the open-source models [Llama-2-13b-chat](https://arxiv.org/pdf/2307.09288.pdf) and [Vicuna-13b-v1.1](https://lmsys.org/blog/2023-03-30-vicuna/), and the closed-source models [PaLM-bison-chat](https://arxiv.org/pdf/2305.10403.pdf), GPT-3.5-turbo, and [GPT-4](https://arxiv.org/pdf/2303.08774.pdf).
 
 ## Prompts
-Metacognitive Prompting (MP) is inspired by human introspective reasoning processes. The figure that shows alignment between human metacognitive pro-
-cesses and the stages of MP for LLMs is shown below:
+Metacognitive Prompting (MP) is inspired by human introspective reasoning processes. The figure below shows the alignment between human metacognitive pro-
+cesses and the stages of MP for LLMs:
 <div align="center">
-    <img width="90%" alt="image" src="https://github.com/EternityYW/Metacognitive-Prompting/blob/main/image_sources/human_LLM_metacognition.png">
+    <img width="75%" alt="image" src="https://github.com/EternityYW/Metacognitive-Prompting/blob/main/image_sources/human_LLM_metacognition.png">
 </div>
 
 MP consists of five main stages: 1) understanding the input text, 2) making a preliminary judgment, 3) critically evaluating this preliminary analysis, 4) reaching a final decision accompanied by an explanation of the reasoning, and 5) evaluating the confidence level in the entire process. A sample question chosen from the Quora Question Pair (QQP) dataset demonstrates the overall MP process:
@@ -34,7 +34,7 @@ MP consists of five main stages: 1) understanding the input text, 2) making a pr
 
 The diagram features three columns, from left to right, representing the high-level metacognitive stages, specific metacognitive prompts fed into the LLM, and the LLM's corresponding outputs. Prompts in the middle column are collectively fed into the LLM as a single input during the experiments.
 
-For our experiments, we compare our proposed MP with standard prompting (StP) and chain-of-thought (CoT) prompting. Each of these is conducted under zero-shot and manual 5-shot prompting. For exemplars used under 5-shot learning settings, they are randomly selected from the training set of each dataset.
+For our experiments, we compare our proposed MP with standard prompting (SP) and chain-of-thought (CoT) prompting. Each of these is conducted under zero-shot and manual 5-shot prompting. For exemplars used under 5-shot learning settings, they are randomly selected from the training set of each dataset.
 
 The full set of prompts used when applying MP, StP, and CoT under zero-shot and 5-shot settings can be obtained in "[./prompts](./prompts/)".
 
