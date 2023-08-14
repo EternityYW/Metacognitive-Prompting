@@ -29,7 +29,7 @@ cesses and the stages of MP for LLMs is shown below:
 
 MP consists of five main stages: 1) understanding the input text, 2) making a preliminary judgment, 3) critically evaluating this preliminary analysis, 4) reaching a final decision accompanied by an explanation of the reasoning, and 5) evaluating the confidence level in the entire process. A sample question chosen from the Quora Question Pair (QQP) dataset demonstrates the overall MP process:
 <div align="center">
-    <img width="85%" alt="image" src="https://github.com/EternityYW/Metacognitive-Prompting/blob/main/image_sources/MP_illustration.png">
+    <img width="90%" alt="image" src="https://github.com/EternityYW/Metacognitive-Prompting/blob/main/image_sources/MP_illustration.png">
 </div>
 
 The diagram features three columns, from left to right, representing the high-level metacognitive stages, specific metacognitive prompts fed into the LLM, and the LLM's corresponding outputs. Prompts in the middle column are collectively fed into the LLM as a single input during the experiments.
@@ -40,6 +40,8 @@ The full set of prompts used when applying MP, StP, and CoT under zero-shot and 
 
 ## Experimental Results
 The experimental results for each dataset can be found in "[./results](./results/)".
+
+Please refer to our full [paper](https://arxiv.org/pdf/2308.05342.pdf) for more details.
 
 ## Citation
 If you find this work helpful, please consider citing as follows:  
