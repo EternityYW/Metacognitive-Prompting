@@ -19,6 +19,7 @@ Here, QA stands for question answering, NLI is natural language inference, WSD i
 
 ## Models 
 In our evaluation, we consider five popular large language models (LLMs): the open-source models [Llama-2-13b-chat](https://arxiv.org/pdf/2307.09288.pdf) and [Vicuna-13b-v1.1](https://lmsys.org/blog/2023-03-30-vicuna/), and the closed-source models [PaLM-bison-chat](https://arxiv.org/pdf/2305.10403.pdf), GPT-3.5-turbo, and [GPT-4](https://arxiv.org/pdf/2303.08774.pdf).
+For all models, we apply greedy decoding (i.e., temperature = 0) for response generation.
 
 ## Prompts
 Metacognitive Prompting (MP) is inspired by human introspective reasoning processes. The figure below shows the alignment between human metacognitive pro-
@@ -34,14 +35,15 @@ MP consists of five main stages: 1) understanding the input text, 2) making a pr
 
 The diagram features three columns, from left to right, representing the high-level metacognitive stages, specific metacognitive prompts fed into the LLM, and the LLM's corresponding outputs. Prompts in the middle column are collectively fed into the LLM as a single input during the experiments.
 
-For our experiments, we compare our proposed MP with standard prompting (SP) and chain-of-thought (CoT) prompting. Each of these is conducted under zero-shot and manual 5-shot prompting. For exemplars used under 5-shot learning settings, they are randomly selected from the training set of each dataset.
+For our experiments, we compare our proposed MP with standard prompting (SP) and chain-of-thought (CoT) prompting. Each of these is conducted under zero-shot and 5-shot learning settings. For exemplars used under 5-shot learning settings, they are randomly selected from the training set of each dataset. Each dataset has its own set of exemplars, where exemplar answers are obtained through human annotation.
 
-The full set of prompts used when applying MP, StP, and CoT under zero-shot and 5-shot settings can be obtained in "[./prompts](./prompts/)".
+The full set of prompts used when applying MP, StP, and CoT under zero-shot and 5-shot learning paradigms can be found in "[./prompts](./prompts/)".
 
 ## Experimental Results
 The experimental results for each dataset can be found in "[./results](./results/)".
+For each dataset, we experiment with three prompting methods in zero-shot and 5-shot learning scenarios across five LLMs. We report the best result after multiple experimental iterations.
 
-Please refer to our full [paper](https://arxiv.org/pdf/2308.05342.pdf) for more details.
+Please refer to our full [paper](https://arxiv.org/pdf/2308.05342.pdf) for more details. 
 
 ## Citation
 If you find this work helpful, please consider citing as follows:  
@@ -54,8 +56,3 @@ If you find this work helpful, please consider citing as follows:
   year={2023}
 }
 ```
-
-
-
-
-
