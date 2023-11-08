@@ -1,0 +1,31 @@
+word,sentence1,sentence2,"label (0: False, 1: True)",GPT4_0_MP_preliminary_judgment,GPT4_0_MP_critical_evaluation,GPT4_0_MP_final_pred,Llama2_0_MP_preliminary_judgment,Llama2_0_MP_critical_evaluation,Llama2_0_MP_final_pred
+class,An emerging professional class.,"Apologizing for losing your temper, even though you were badly provoked, showed real class.",0,0,0,0,0,0,0
+stripe,Businessmen of every stripe joined in opposition to the proposal.,They earned their stripes in Kuwait.,0,0,0,0,0,0,0
+addition,The addition of a leap day every four years.,The addition of a bathroom was a major improvement.,0,0,1,1,1,0,0
+liberate,To liberate the mind from prejudice.,To liberate gases.,1,1,1,1,1,1,1
+bell,Bell cows.,Who will bell the cat?,1,1,0,0,0,1,1
+disable,Disable this command on your computer.,He was disabled in a car accident.,0,0,0,0,0,0,0
+listen,Please listen carefully as I explain.,I like to listen to music.,1,1,1,1,1,1,1
+stop,Stop a car.,Stop the thief.,1,0,1,1,0,1,1
+figure,Elections figure prominently in every government program.,How do the elections figure in the current pattern of internal politics?,1,1,1,1,1,1,1
+homogenization,The homogenization of cream.,The network's homogenization of political news.,1,1,1,1,1,1,1
+building,The entire building complained about the noise.,The building of the bridge will be completed in a couple of weeks.,0,0,0,0,0,0,0
+gown,The relations between town and gown are always sensitive.,"In the perennial town versus gown battles, townies win some violent battles, but the collegians are winning the war.",1,1,1,1,1,0,0
+delight,The new car is a delight.,His delight to see her was obvious to all.,0,0,0,0,0,0,0
+solemnize,"The couple chose to solemnize their relationship in a secular ceremony, instead of having a wedding.",The King solemnized this day of morning.,0,0,1,1,1,0,0
+scallop,Scallop the hem of the dress.,Scallop the meat.,0,0,0,0,0,0,0
+success,His success in the marathon was unexpected.,The election was a remarkable success for the Whigs.,0,0,1,1,0,0,0
+refresher,The nap was a welcome refresher.,He stopped at the bar for a quick refresher.,1,0,1,0,0,1,1
+block,Block the signals emitted by this station.,The thick curtain blocked the action on the stage.,0,0,1,1,0,1,1
+writing,Writing was a form of therapy for him.,The idea occurs with increasing frequency in Hemingway's writings.,0,0,0,0,0,0,0
+studio,His studio was cramped when he began as an artist.,You don't need a studio to make a passport photograph.,1,1,1,1,1,1,1
+harass,Harass the enemy.,This man harasses his female co-workers.,0,0,1,1,1,0,0
+cost,The average cost of a new house is twice as much as t was 20 years ago.,The total cost of the new complex was an estimated $1.5 million.,1,1,1,1,1,1,1
+dip,Dip the brush into the paint.,She dipped her knee.,0,1,1,0,0,0,0
+fuel,"Fuel aircraft, ships, and cars.",Fuel the debate on creationism.,0,0,0,0,0,0,0
+frame,A lace frame.,His starved flesh hung loosely on his once imposing frame.,0,0,0,0,0,0,0
+segregate,Experiments show clearly that genes segregate.,Many towns segregated into new counties.,1,1,1,1,0,0,0
+pronunciation,That is the correct pronunciation.,The pronunciation of Chinese is difficult for foreigners.,1,1,1,1,1,1,1
+section,The history of this work is discussed in the next section.,A graduate student taught sections for the professor's lecture course.,0,0,0,0,0,0,0
+shake,Shake the salt out of the salt shaker.,His hands shook.,0,0,0,0,1,0,1
+button,"The politician wore a bright yellow button with the slogan ""Vote Smart"" emblazoned on it.",They passed out campaign buttons for their candidate.,1,1,1,1,1,1,1
