@@ -1,1 +1,9 @@
+Abbreviations of Prompting in File:
 
+- SP: standard prompting
+- CoT: chain-of-thought prompting
+- MP: metacognitive prompting
+- SC: self-consistency prompting
+- LtM: least-to-most prompting
+- ToT: Tree-of-Thoughts prompting
+- PS: Plan-and-Solve prompting
